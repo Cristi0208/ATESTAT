@@ -1,0 +1,52 @@
+body {
+  padding-top: 45px; /*spatiu in partea de sus a paginii ca 
+    bara fixa sa nu acopere continutul tau! */
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* O intinde pe toata latimea */
+  height: 60px;
+  background-color: #c1292e;
+  color: white;
+  display: flex; /* Aliniaza elementele in interior */
+  align-items: center;
+  padding: 0 20px; /* Spatiu in stanga si dreapta */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Adauga o umbra fina */
+  z-index: 10000; /* O pune peste absolut orice altceva */
+  margin-bottom: 0;
+}
+.logo-acasa {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Scoate linia albastra de sub link */
+  color: #fafffd;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  gap: 10px; /* Spatiu intre emoji si textul "Acasa" */
+}
+.logo-acasa:hover {
+  color: #16262e;
+}
+.strada {
+  height: 80px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(
+    to bottom,
+    white 0px,
+    white 49px,
+    #d5d5d5 49px,
+    #d5d5d5 100%
+  );
+}
+.gif-masina {
+  height: 90px;
+  width: auto;
+  display: block;
+}
