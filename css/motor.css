@@ -3,6 +3,7 @@ body {
   bara fixa sa nu acopere continutul tau! */
   margin: 0;
   font-family: oswald;
+  color: #16262e;
 }
 
 .aldrich {
@@ -30,6 +31,7 @@ body {
   z-index: 10000; /* O pune peste absolut orice altceva */
   margin-bottom: 0;
 }
+
 .logo-acasa {
   display: flex;
   align-items: center;
@@ -38,10 +40,36 @@ body {
   font-weight: 300;
   gap: 10px;
 }
+
 .logo-acasa:hover {
   color: #16262e;
   font-weight: 400;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+th {
+  background-color: #c1292e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
 .strada {
   height: 80px;
   overflow: hidden;
@@ -56,6 +84,76 @@ body {
     #d5d5d5 100%
   );
 }
+
+
+.container-pagina {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.sectiune-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 50px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.text-stanga h1 {
+  color: #c1292e;
+  border-left: 5px solid #c1292e; 
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.text-stanga p,
+.text-stanga li {
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.text-stanga ul {
+  padding-left: 20px;
+}
+
+.imagine-dreapta img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.imagine-dreapta img:hover {
+  transform: scale(1.02); /* Efect ușor de mărire la hover */
+}
+
+h3{
+  text-align: center;
+}
+.flux-putere {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #16262e;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.pas {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.sageata {
+    color: #c1292e;
+    font-size: 1.5rem;
+}
+
 .gif-masina {
   height: 90px;
   width: auto;
