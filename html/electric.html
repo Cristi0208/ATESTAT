@@ -1,30 +1,97 @@
 <!doctype html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/motor.css" />
-    <title>Motor</title>
+    <link rel="stylesheet" href="../css/electric.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="../resurse/ECUicon.png" />
+    <title>Sistemul Electric</title>
   </head>
+
   <body>
     <nav class="navbar">
       <a href="index.html" class="logo-acasa">
         <span class="pictograma">
-          <img src="../resurse/home.png" alt="">
+          <img src="../resurse/home.png" alt="Home" style="height: 25px;"/>
         </span>
-        <span>Pagina de pornire</span>
+        <span class="oswald">Pagina de pornire</span>
       </a>
       <div class="titlupagina"></div>
     </nav>
+
+    <main class="container-pagina">
+      <!-- Sectiunea 1: Sursa de Energie -->
+      <section class="sectiune-grid">
+          <div class="text-stanga">
+              <h1 class="aldrich">Sistemul Electric: Energia Vehiculului</h1>
+              <p>
+                  Sistemul electric este responsabil pentru pornirea motorului și alimentarea tuturor consumatorilor, de la faruri până la sistemele complexe de navigație.
+              </p>
+              <ul>
+                  <li><strong>Bateria:</strong> Stochează energie chimică și o transformă în curent electric pentru pornire.</li>
+                  <li><strong>Alternatorul:</strong> Generatorul care produce curent în timp ce motorul funcționează.</li>
+                  <li><strong>Cablajul:</strong> Sistemul de "nervi" care distribuie energia în toată mașina.</li>
+              </ul>
+          </div>
+          <div class="imagine-dreapta">
+              <img src="../resurse/skodadash.jpg" alt="Sistem Electric" />
+          </div>
+      </section>
+
+      <!-- Aditie Creativa: Martorii de Bord -->
+      <section class="martori-bord">
+          <h2 class="aldrich">Martori de Bord: Ce ne transmite mașina?</h2>
+          <div class="grid-martori">
+              <div class="martor">
+                  <div class="cerc-martor rosu">!</div>
+                  <h4 class="oswald">Check Engine</h4>
+                  <p>Indică o defecțiune la sistemul de injecție sau emisii.</p>
+              </div>
+              <div class="martor">
+                  <div class="cerc-martor rosu">+-</div>
+                  <h4 class="oswald">Baterie</h4>
+                  <p>Alternatorul nu încarcă sau bateria este descărcată.</p>
+              </div>
+              <div class="martor">
+                  <div class="cerc-martor galben">ABS</div>
+                  <h4 class="oswald">Sistem Frânare</h4>
+                  <p>Sistemul de antiblocare a roților are o eroare tehnică.</p>
+              </div>
+              <div class="martor">
+                  <div class="cerc-martor albastru">≡D</div>
+                  <h4 class="oswald">Fază Lungă</h4>
+                  <p>Luminile de drum sunt active și pot orbi ceilalți șoferi.</p>
+              </div>
+          </div>
+      </section>
+
+      <section class="sectiune-grid">
+          <div class="text-stanga">
+              <h1 class="aldrich">Unitatea de Control (ECU)</h1>
+              <p>
+                  Unitatea de Control a Motorului (ECU) funcționează ca sistemul nervos central al vehiculului, optimizând performanța prin procesarea datelor primite de la o rețea vastă de senzori (temperatură, presiune, oxigen). Acesta calculează în timp real amestecul ideal de aer-combustibil și momentul aprinderii, asigurând un echilibru între putere, consum și emisii. Pe lângă managementul motorului, ECU are rolul vital de a monitoriza starea tehnică a mașinii, activând moduri de protecție și stocând coduri de eroare pentru diagnoză în cazul detectării unor anomalii.
+              </p>
+          </div>
+          <div class="imagine-dreapta">
+              <img src="../resurse/ECU.jpg" alt="Calculator Masina" />
+          </div>
+      </section>
+    </main>
+
+    <footer class="footer-lectura">
+      <div class="linie-separatoare"></div>
+      <p>Dorești să explorezi și mai multe detalii tehnice?</p>
+      <a href="https://ro.wikipedia.org/wiki/Calculator_de_bord" target="_blank" class="link-extern">
+        Citește pe Wikipedia: Calculator de Bord
+        <span class="sageata-wiki">→</span>
+      </a>
+    </footer>
+
     <marquee direction="right" class="strada" scrollamount="5">
-      <img
-        src="../resurse/pixelcar.gif"
-        alt=""
-        class="gif-masina"
-        onmouseover="this.parentElement.stop()"
-        onmouseout="this.parentElement.start()"
-      />
+      <img src="../resurse/pixelcar.gif" alt="Pixel Car" class="gif-masina" onmouseover="this.parentElement.stop()" onmouseout="this.parentElement.start()" />
     </marquee>
   </body>
 </html>

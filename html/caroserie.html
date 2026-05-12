@@ -1,30 +1,154 @@
 <!doctype html>
 
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/motor.css" />
-    <title>Motor</title>
-  </head>
-  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Aldrich&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/caroserie.css" />
+    <link rel="icon" href="../resurse/carbodyicon.png" />
+    <title>Caroseria</title>
+</head>
+
+<body>
     <nav class="navbar">
-      <a href="index.html" class="logo-acasa">
-        <span class="pictograma">
-          <img src="../resurse/home.png" alt="">
-        </span>
-        <span>Pagina de pornire</span>
-      </a>
-      <div class="titlupagina"></div>
+        <a href="index.html" class="logo-acasa">
+            <span class="pictograma">
+                <img src="../resurse/home.png" alt="" />
+            </span>
+            <span>Pagina de pornire</span>
+        </a>
+        <div class="titlupagina"></div>
     </nav>
-    <marquee direction="right" class="strada" scrollamount="5">
-      <img
-        src="../resurse/pixelcar.gif"
-        alt=""
-        class="gif-masina"
-        onmouseover="this.parentElement.stop()"
-        onmouseout="this.parentElement.start()"
-      />
-    </marquee>
-  </body>
+    
+    <main class="container-pagina">
+        <section class="sectiune-grid">
+            <div class="text-stanga">
+                <h1>Caroseria: Design și Funcționalitate</h1>
+                <p>
+                    Caroseria nu este doar „carapacea” exterioară a mașinii, ci un
+                    element ingineresc vital. Ea îndeplinește trei funcții majore:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Aerodinamică:</strong> Reduce rezistența la înaintare
+                        pentru un consum mic și viteză mai mare.
+                    </li>
+                    <li>
+                        <strong>Siguranță:</strong> Include „zone de deformare controlată”
+                        care absorb energia unui impact pentru a proteja pasagerii.
+                    </li>
+                    <li>
+                        <strong>Estetică:</strong> Definește identitatea vizuală a mărcii
+                        și a modelului.
+                    </li>
+                </ul>
+            </div>
+            <div class="imagine-dreapta">
+                <img
+                src="../resurse/windtunnel.webp"
+                alt="Test aerodinamic caroserie"
+                />
+            </div>
+        </section>
+        
+        <section class="sectiune-galerie">
+            <h2>Principalele Tipuri de Caroserie</h2>
+            <div class="grid-caroserie">
+                <div class="card-tip">
+                    <img src="../resurse/SkodaSuperbII.jpg" alt="Sedan" />
+                    <h4>Sedan</h4>
+                    <p>3 volume distincte: motor, habitaclu și portbagaj separat.</p>
+                </div>
+                <div class="card-tip">
+                    <img src="../resurse/cliors16.jpg" alt="Hatchback" />
+                    <h4>Hatchback</h4>
+                    <p>
+                        2 volume, unde portbagajul face parte din habitaclu, accesibil
+                        prin hayon.
+                    </p>
+                </div>
+                <div class="card-tip">
+                    <img src="../resurse/volvo.webp" alt="SUV" />
+                    <h4>SUV</h4>
+                    <p>
+                        Gardă la sol ridicată și poziție înaltă la volan, ideal pentru
+                        teren variat.
+                    </p>
+                </div>
+                <div class="card-tip">
+                    <img src="../resurse/mercedes.jpg" alt="Coupe" />
+                    <h4>Coupé</h4>
+                    <p>
+                        Accent pe sportivitate, de regulă cu 2 uși și o linie a plafonului
+                        plonjată.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="sectiune-grid">
+            <div class="text-stanga">
+                <h1>Interiorul: Ergonomie și Confort</h1>
+                <p>
+                    Habitaclul este spațiul unde utilizatorul interacționează direct cu
+                    vehiculul. Designul interior se concentrează pe
+                    <strong>ergonomie</strong> (dispunerea controalelor pentru a fi la
+                    îndemână) și pe <strong>insonorizare</strong> (reducerea zgomotului
+                    de rulare).
+                </p>
+                <p>
+                    Materialele folosite variază de la materiale textile rezistente și
+                    plastice moi, până la piele naturală, Alcantara, inserții de lemn
+                    sau fibră de carbon în cazul mașinilor de lux sau sport.
+                </p>
+            </div>
+            <div class="imagine-dreapta">
+                <img
+                src="../resurse/volvocarinterior.jpg"
+                alt="Interior modern masina"
+                />
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer-lectura">
+        <div class="linie-separatoare"></div>
+        <p>Dorești să explorezi și mai multe detalii tehnice?</p>
+        <a
+        href="https://en.wikipedia.org/wiki/Car_body_configurations"
+        target="_blank"
+        class="link-extern"
+        >
+        Citește pe Wikipedia: Configuratii Caroserii
+        <span class="sageata-wiki">→</span>
+    </a>
+    <br />
+    <a
+    href="https://en.wikipedia.org/wiki/Automotive_design#Interior_design"
+    target="_blank"
+    class="link-extern"
+    >
+    Citește pe Wikipedia: Interiorul Masinii
+    <span class="sageata-wiki">→</span>
+</a>
+</footer>
+
+<br /><br /><br /><br />
+
+<marquee direction="right" class="strada" scrollamount="5">
+    <img
+    src="../resurse/pixelcar.gif"
+    alt=""
+    class="gif-masina"
+    onmouseover="this.parentElement.stop()"
+    onmouseout="this.parentElement.start()"
+    />
+</marquee>
+</body>
 </html>

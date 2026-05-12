@@ -5,18 +5,135 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/motor.css" />
-    <title>Motor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../resurse/sasiuvector.png" />
+    <title>Sasiul</title>
   </head>
+
   <body>
     <nav class="navbar">
       <a href="index.html" class="logo-acasa">
         <span class="pictograma">
-          <img src="../resurse/home.png" alt="">
+          <img src="../resurse/home.png" alt="" />
         </span>
         <span>Pagina de pornire</span>
       </a>
       <div class="titlupagina"></div>
     </nav>
+
+    <main class="container-pagina">
+      <section class="sectiune-grid">
+        <div class="text-stanga">
+          <h1>Șasiul: Structura de Rezistență</h1>
+          <p>
+            Șasiul reprezintă cadrul pe care sunt montate toate celelalte
+            componente ale automobilului. Rolul său principal este de a oferi
+            rigiditate structurală și de a proteja ocupanții în caz de impact.
+          </p>
+          <p>
+            În industria modernă, majoritatea autoturismelor folosesc o
+            <strong>structură monococă</strong> (caroserie autoportantă), unde
+            șasiul și caroseria formează un singur corp unitar, reducând
+            greutatea și crescând siguranța. Autovehiculele de teren și
+            camioanele folosesc încă <strong>șasiul tip scară</strong>, apreciat
+            pentru rezistența la torsiune în condiții grele.
+          </p>
+        </div>
+        <div class="imagine-dreapta">
+          <img src="../resurse/compsasiuri.jpg" alt="Sasiu Monococa" />
+        </div>
+      </section>
+
+      <section class="tabel-comparativ">
+        <h3>Comparație Tipuri de Șasiu</h3>
+        <table>
+          <tr>
+            <th>Caracteristică</th>
+            <th>Monococă (Autoturisme)</th>
+            <th>Tip Scară (Off-road/Camioane)</th>
+          </tr>
+          <tr>
+            <td>Greutate</td>
+            <td>Redusă (Eficientă)</td>
+            <td>Ridicată (Robustă)</td>
+          </tr>
+          <tr>
+            <td>Siguranță (Impact)</td>
+            <td>Excelentă (Zone de deformare)</td>
+            <td>Medie (Structură rigidă)</td>
+          </tr>
+          <tr>
+            <td>Utilizare</td>
+            <td>Viteză, oraș, consum mic</td>
+            <td>Tractare, teren accidentat</td>
+          </tr>
+        </table>
+      </section>
+
+      <br />
+
+      <section class="sectiune-grid">
+        <div class="text-stanga">
+          <h1>Trenul de Rulare și Suspensia</h1>
+          <p>
+            Trenul de rulare este ansamblul care face legătura între roți și
+            șasiu. Acesta dictează cum „simte” șoferul drumul. Cele mai
+            importante sisteme sunt:
+          </p>
+          <div class="carduri-componente">
+            <div class="card">
+              <h4>Suspensia</h4>
+              <p>Sistemul de suspensie reprezintă legătura elastică dintre roți și șasiu, având rolul dublu de a asigura confortul pasagerilor și stabilitatea vehiculului. Acesta utilizează arcuri pentru a prelua energia impactului cu denivelările și amortizoare pentru a controla oscilațiile caroseriei, garantând că anvelopele mențin un contact constant cu suprafața de rulare.</p>
+            </div>
+            <div class="card">
+              <h4>Sistemul de Frânare</h4>
+              <p>
+                Esențial pentru siguranța activă, sistemul de frânare convertește energia cinetică a mașinii în energie termică prin frecare. La apăsarea pedalei, presiunea hidraulică împinge plăcuțele pe discuri (sau saboții pe tamburi), generând forța necesară pentru încetinirea sau oprirea completă a roților în cel mai scurt timp posibil.
+              </p>
+            </div>
+            <div class="card">
+              <h4>Direcția</h4>
+              <p>
+                Sistemul de direcție permite șoferului să controleze traiectoria vehiculului prin orientarea roților directoare de pe puntea față. Acesta transformă mișcarea de rotație a volanului într-o mișcare liniară a mecanismului de direcție, utilizând adesea servoasistența (hidraulică sau electrică) pentru a reduce efortul fizic necesar manevrării, mai ales la viteze mici sau pe loc.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="imagine-dreapta">
+          <img src="../resurse/jeep.jpg" alt="Sistem Suspensie" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-lectura">
+      <div class="linie-separatoare"></div>
+      <p>Dorești să explorezi și mai multe detalii tehnice?</p>
+      <a
+        href="https://en.wikipedia.org/wiki/Rolling_chassis"
+        target="_blank"
+        class="link-extern"
+      >
+        Citește pe Wikipedia: Șasiu
+        <span class="sageata-wiki">→</span>
+      </a>
+      <br />
+      <a
+        href="https://en.wikipedia.org/wiki/Drivetrain"
+        target="_blank"
+        class="link-extern"
+      >
+        Citește pe Wikipedia: Tren de Rulare
+        <span class="sageata-wiki">→</span>
+      </a>
+    </footer>
+
+    <br /><br /><br /><br />
+
     <marquee direction="right" class="strada" scrollamount="5">
       <img
         src="../resurse/pixelcar.gif"
